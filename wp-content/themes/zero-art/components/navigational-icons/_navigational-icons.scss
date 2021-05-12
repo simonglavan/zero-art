@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# NAVIGATIONAL ICONS
+--------------------------------------------------------------*/
+.navigational-icon {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	position: relative;
+	color: $gray-700; //BASE COLOR
+
+	&__link {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	&__inner {
+		width: 75%;
+		height: 75%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	a {
+		color: inherit;
+	}
+}
